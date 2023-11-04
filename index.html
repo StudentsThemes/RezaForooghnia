@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ای استخدام</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menustyle.css">
+    <link rel="stylesheet" href="assets/css/hover.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="container">
+            <div class="headElements">
+                <div class="logo">
+                    <a href="/"><img src="assets/images/logo2.svg" alt="Iestekhdam"></a>
+                </div>
+                <div class="searchHead">
+                    <input type="text" placeholder="جستجوی آگهی استخدام">
+                </div>
+                <div class="headBtn">
+                    <div id="advertising"> <button type="button">درج آگهی استخدام</button></div>
+                    <div id="register"><button type="button"> ورود/ثبت نام</button></div>
+                </div>
+            </div>
+            <div class="mobilmenu">
+                <nav class="menu">
+                    <input type="checkbox" class="menu-open" name="menu-open" id="menu-open" />
+                    <label class="menu-open-button" for="menu-open">
+                        <span class="hamburger hamburger-1"></span>
+                        <span class="hamburger hamburger-2"></span>
+                        <span class="hamburger hamburger-3"></span>
+                    </label>
+
+                    <a class="menu-item"> جستوجو</a>
+                    <a class="menu-item"> رزومه ساز</a>
+                    <a class="menu-item"> نمونه رزومه </a>
+                    <a class="menu-item"> تست هوش</a>
+                    <a class="menu-item" id="best"> برترین شرکت ها </a>
+
+                </nav>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="shadowed-goo">
+
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo" />
+                            <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                            <feColorMatrix in="shadow" mode="matrix"
+                                values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+                            <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                            <feBlend in2="shadow" in="goo" result="goo" />
+                            <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                        </filter>
+                        <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo" />
+                            <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="mobileBtn">
+                    <button type="button">موقعیت های شغلی</button>
+                    <button type="button">رزومه ساز</button>
+                </div>
+            </div>
+            <div class="phover">
+                <p>
+                    با
+                    <a>
+                        ای استخدام
+                        <svg viewBox="0 0 70 36">
+                            <path
+                                d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+                        </svg>
+                    </a>
+                    استخدام شو :) ...
+                </p>
+
+            </div>
+
+            <div class="menubar">
+                <ul class="ulMenubars">
+                    <li class="liMenubars"><a href="/">منو سایت</a></li>
+                    <li class="liMenubars"><a href="/">موقعیت شغلی</a></li>
+                    <li class="liMenubars"><a href="/">انتخاب استان</a></li>
+                    <li class="liMenubars"><a href="/">استخدام سراسری</a></li>
+                    <li class="liMenubars"><a href="/">نمونه سوالات استخدامی</a></li>
+                    <li class="liMenubars"><a href="/">رزومه ساز</a></li>
+                    <li class="liMenubars"><a href="/">بهترین شرکت ها</a></li>
+                    <li class="liMenubars"><a href="/">تماس با ما</a></li>
+                </ul>
+            </div>
+
+            <div class="bestTool">
+                <h3>کاملترین ابزار استخدامی کشور</h3>
+            </div>
+            <div class="jobSearch">
+                <button>جستجوی آگهی استخدام</button>
+                <button>استخدام دولتی و سراسری</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="quick">
+                <div class="access">
+                    <h5>دسترسی سریع</h5>
+                </div>
+                <div class="employer">
+                    <div class="btnEmployer">
+                        <span>کارفرما هستید؟</span>
+                        <button type="button">
+                            درج آگهی استخدام
+                        </button>
+                    </div>
+                </div>
+                <div class="quickBtn">
+                    <div><button type="button">استخدام تهران</button></div>
+                    <div><button type="button">استخدام البرز</button></div>
+                    <div><button type="button">کارآموزی</button></div>
+                    <div><button type="button">کار پاره وقت</button></div>
+                    <div><button type="button">استخدام در بانک</button></div>
+                    <div><button type="button">دورکاری</button></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="underHead">
+        <div class="container">
+            <div class="companies">
+                <div><img src="assets/images/companies/1.jpg" alt=""></div>
+                <div><img src="assets/images/companies/2.png" alt=""></div>
+                <div><img src="assets/images/companies/3.png" alt=""></div>
+                <div><img src="assets/images/companies/4.jpg" alt=""></div>
+                <div><img src="assets/images/companies/5.jpg" alt=""></div>
+                <div><img src="assets/images/companies/6.jpg" alt=""></div>
+                <div><img src="assets/images/companies/7.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="BodyContent">
+        <div class="container">
+            <div class="employer2">
+                <div><span>کارفرما هستید؟</span></div>
+                <div>
+                    <button type="button">
+                        درج آگهی استخدام
+                    </button>
+                </div>
+            </div>
+            <div class="h3andIcon">
+                <div>
+                    <a href="/">
+                        <h3>استخدام های سراسری در جریان</h3>
+                    </a>
+                </div>
+                <div> <a href="/"><img src="assets/images/icons/bxs-left-arrow.svg" alt=""></a></div>
+            </div>
+            <div class="GovernmentOrganizations">
+                <div>
+                    <img src="assets/images/goverment/1.png" alt="وزارت بهداشت" width="60" height="60">
+                    <span>وزارت بهداشت</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/2.png" alt="آموزش و پرورش" width="60" height="60">
+                    <span>آموزش و پرورش</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/3.jpg" alt="فراگیر دستگاه‌های اجرایی" height="60" width="60">
+                    <span>فراگیر دستگاه‌های اجرایی</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/4.png" alt="بانک سینا" height="60" width="60">
+                    <span>بانک سینا</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/5.jpg" alt="سازمان بورس" height="60" width="60">
+                    <span>سازمان بورس</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/6.png" alt="دانشگاه‌های علوم پزشکی" height="60" width="60">
+                    <span>دانشگاه‌های علوم پزشکی</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/7.png" alt="وزارت امور خارجه" height="60" width="60">
+                    <span>وزارت امور خارجه</span>
+                </div>
+                <div>
+                    <img src="assets/images/goverment/8.png" alt="بانک ملی" height="60" width="60">
+                    <span>بانک ملی</span>
+                </div>
+            </div>
+            <div class="diary">
+                <span>امروز جمعه ۳۱ شهریور ۱۴۰۲</span>
+            </div>
+            <div class="HiringTodayAndGovernmentEmployment">
+                <div class="HiringToday">
+                    <div class="HeadHiringToday">
+                        <div>
+                            <a href="/">
+                                <img src="assets/images/icons/wifi.svg" alt="wifi" height="30" width="30">
+                            </a>
+                        </div>
+                        <div><a href="/">استخدام های امروز</a></div>
+                        <div>
+                            <a href="/">
+                                <img src="assets/images/icons/bxs-left-arrow.svg" alt="arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="AllBody">
+                        <div class="bodyHiringToday">
+                            <div><span>استخدام پزشک متخصص چشم پزشکی در بهراد طب تهران در کوی مهران تهران</span></div>
+                            <div><span>تهران</span></div>
+                        </div>
+                        <div class="bodyHiringToday">
+                            <div><span>استخدام کارشناس فروش واحد رزرواسیون در تهران</span></div>
+                            <div><span>تهران</span></div>
+                        </div>
+                        <div class="bodyHiringToday">
+                            <div><span>استخدام حسابدار در صنایع ایمن فراز ارک در عباس آباد تهران</span></div>
+                            <div><span>تهران</span></div>
+                        </div>
+                        <div class="bodyHiringToday">
+                            <div><span>استخدام حسابدار با بیمه و پاداش در مزرعه پروتئین برگریزان در مازندران</span>
+                            </div>
+                            <div id="Gray"><span>مازندران</span></div>
+                        </div>
+                        <div class="bodyHiringToday">
+                            <div><span>استخدام مدیر مالی، رئیس حسابداری و کارشناس مالی در اصفهان</span></div>
+                            <div id="Gray"><span>اصفهان</span></div>
+                        </div>
+
+                        <div class="AllBodyBtn">
+                            <button type="button">ادامه لیست</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="GovernmentEmployment">
+                    <div class="HeadGovernmentEmployment">
+                        <div>
+                            <a href="/">
+                                <img src="assets/images/icons/wifi.svg" alt="wifi" height="30" width="30">
+                            </a>
+                        </div>
+                        <div><a href="/">استخدام‌های دولتی و سراسری</a></div>
+                        <div>
+                            <a href="/">
+                                <img src="assets/images/icons/bxs-left-arrow.svg" alt="arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="AllBody">
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>از استخدام بانکها و موسسات دولتی و خصوصی در سال ۱۴۰۲ جا نمانید</span></div>
+                            <div id="Gray"><span></span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام وزارت بهداشت (تمدید ثبت نام+اصلاحیه)</span></div>
+                            <div><span>استخدام جدید</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام آموزش و پرورش (تمدید ثبت نام)</span></div>
+                            <div><span>ثبت نام</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>بسته‌های ویژه مصاحبه و ارزیابی دبیری و هنرآموزی آموزش و پرورش</span></div>
+                            <div id="Gray"><span></span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div id="lastSpan"><span>کتاب جامع درس و نکات آموزشی و اصل سوالات استخدامی وب سایت «ای
+                                    استخدام»</span></div>
+                            <div id="Gray"><span></span></div>
+                        </div>
+
+                        <div class="AllBodyBtn">
+                            <button type="button">ادامه لیست</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bestCompanies">
+                <div>
+                    <h2>استخدام در بهترین شرکت‌های خصوصی ایران</h2>
+                </div>
+                <div>
+                    <h5>هر‌آنچه برای استخدام شدن در بهترین شرکت‌های خصوصی کشور نیاز دارید، در اختیار شماست</h5>
+                </div>
+            </div>
+
+            <div class="AllCardBestCompanies">
+                <div class="Card">
+                    <div><img src="assets/images/best companies/x1.png" alt=""></div>
+                    <div><span>بهترین شرکت‌ها برای استخدام</span></div>
+                    <div>
+                        <p>رده‌بندی شرکت‌های خصوصی کشور براساس عملکرد استخدامی</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div><img src="assets/images/best companies/x2.png" alt=""></div>
+                    <div><span>رزومه حرفه‌ای بسازید!</span></div>
+                    <div>
+                        <p>با رزومه ساز «ای استخدام» هیچ فرصتی را به دلیل رزومه ضعیف از دست ندهید!</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div><img src="assets/images/best companies/x3.png" alt=""></div>
+                    <div><span>تست هوش و شخصیت شناسی</span></div>
+                    <div>
+                        <p>با انجام این تست‌ها شغلی متناسب با ویژگی‌های شخصیتی خود انتخاب کنید</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bestCompanies">
+                <div>
+                    <h2>جستجوی آگهی استخدام</h2>
+                </div>
+                <div>
+                    <h5>از میان آگهی‌های متنوع از سراسر کشور شغل مورد نظر خود را پیدا کنید</h5>
+                </div>
+            </div>
+            <div class="AllCities">
+                <div class="cities">
+                    <div><img src="assets/images/cities/tehran.png" alt="tehran"></div>
+                    <div><span>تهران</span></div>
+                </div>
+                <div class="cities">
+                    <div><img src="assets/images/cities/isfahan.png" alt="isfahan"></div>
+                    <div><span>اصفهان</span></div>
+                </div>
+                <div class="cities">
+                    <div><img src="assets/images/cities/khorasan_razavi.png" alt="khorasanrazavi"></div>
+                    <div><span>خراسان رضوی</span></div>
+                </div>
+                <div class="cities">
+                    <div><img src="assets/images/cities/fars.png" alt="fars"></div>
+                    <div><span>فارس</span></div>
+                </div>
+            </div>
+            <div class="othercities">
+                <a href="/">سایر استان ها ▼</a>
+            </div>
+
+            <div class="OccupationalGroup">
+                <div class="jobs">
+                    <div><img src="assets/images/jobs/selling.png" alt="selling"></div>
+                    <div><span>فروش و بازاریابی</span></div>
+                </div>
+                <div class="jobs">
+                    <div><img src="assets/images/jobs/engineering.png" alt="engineering"></div>
+                    <div><span>فنی و مهندسی</span></div>
+                </div>
+                <div class="jobs">
+                    <div><img src="assets/images/jobs/accountancy.png" alt="accountancy"></div>
+                    <div><span>حسابداری و مالی</span></div>
+                </div>
+                <div class="jobs">
+                    <div><img src="assets/images/jobs/departmental.png" alt="departmental"></div>
+                    <div><span>اداری و دفتری</span></div>
+                </div>
+            </div>
+            <div class="otherJobs">
+                <a href="/">سایر گروه‌های شغلی ▼</a>
+            </div>
+            <div class="bestCompanies">
+                <div>
+                    <h2>استخدام‌های دولتی و سراسری</h2>
+                </div>
+                <div>
+                    <h5>پوشش کامل استخدام‌های دولتی و سراسری کشور به همراه منابع مطالعاتی و نکات مصاحبه و گزینش</h5>
+                </div>
+            </div>
+            <div class="GovernmentNationwideRecruitment">
+                <div class="firstGNR">
+                    <div><img src="assets/images/Government and nationwide recruitment/banks.png" alt=""></div>
+                    <div class="GNRLinkAndIcon">
+                        <div><a href="/">استخدام بانک ها</a></div>
+                        <div> <img src="assets/images/icons/bxs-left-arrow.svg" alt="arrow"></div>
+                    </div>
+                    <div class="AllBody">
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام بانک سینا </span></div>
+                            <div id="Gray"><span></span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام بانک پارسیان</span></div>
+                            <div id="Gray"><span></span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام بانک خاورمیانه (دعوت به همکاری)</span></div>
+                            <div><span>دعوت<br>
+                                    همکاری</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام بانک دی (دعوت به همکاری)</span></div>
+                            <div><span>دعوت<br>
+                                    همکاری</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div id="lastSpan"><span>استخدام بانک پاسارگاد (دعوت به همکاری)
+                                </span></div>
+                            <div><span>دعوت<br>
+                                    همکاری</span></div>
+                        </div>
+
+                        <div class="AllBodyBtn">
+                            <button type="button">ادامه لیست</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="SecondGNR">
+                    <div><img src="assets/images/Government and nationwide recruitment/military.png" alt=""></div>
+                    <div class="GNRLinkAndIcon">
+                        <div><a href="/">استخدام نیروهای مسلح</a></div>
+                        <div> <img src="assets/images/icons/bxs-left-arrow.svg" alt="arrow"></div>
+                    </div>
+                    <div class="AllBody">
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام نیروی پدافند هوایی ارتش </span></div>
+                            <div><span>استخدام<br> جدید</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام نیروی دریایی ارتش جمهوری اسلامی ایران</span></div>
+                            <div><span>استخدام<br> جدید</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام بانک خاورمیانه (دعوت به همکاری)</span></div>
+                            <div><span>دعوت<br>
+                                    همکاری</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div><span>استخدام بانک دی (دعوت به همکاری)</span></div>
+                            <div><span>دعوت<br>
+                                    همکاری</span></div>
+                        </div>
+                        <div class="bodyGovernmentEmployment">
+                            <div id="lastSpan"><span>استخدام بانک پاسارگاد (دعوت به همکاری)
+                                </span></div>
+                            <div><span>دعوت<br>
+                                    همکاری</span></div>
+                        </div>
+
+                        <div class="AllBodyBtn">
+                            <button type="button">ادامه لیست</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="AllCardEmployment">
+                <div class="Card">
+                    <div><img src="assets/images/Recruitment agents/compolsury_service.png" alt=""></div>
+                    <div><span>نظام وظیفه</span></div>
+                    <div>
+                        <p>به صورت لحظه ای از قوانین نظام وظیفه و دریافت امریه سربازی مطلع شوید</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div><img src="assets/images/Recruitment agents/resources.png" alt=""></div>
+                    <div><span>نمونه سوالات استخدامی </span></div>
+                    <div>
+                        <p>کتب و منابع مرتبط با آزمون‌های استخدامی کشور به همراه نمونه سوالات</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div><img src="assets/images/Recruitment agents/calendar.png" alt=""></div>
+                    <div><span>تقویم آزمون‌های استخدامی</span></div>
+                    <div>
+                        <p>جدول زمانبندی آزمون‌های استخدامی کشور را در این صفحه دنبال کنید</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imgNews">
+                <div><img src="assets/images/news/news.png" alt="news"></div>
+                <div><a href="/">اخبار استخدامی</a></div>
+            </div>
+            <div class="news">
+                <div class="new">
+                    <span>استخدام دانشگاه فرهنگیان (کلیه اخبار)</span>
+                    <span>اخبار لحظه به لحظه آموزش و پرورش</span>
+                    <span>اخبار استخدام پرستاران (خبر جدید)</span>
+                    <span>استخدام دانشگاه‌های علوم پزشکی</span>
+                </div>
+                <div class="new">
+                    <span>آخرین اخبار تحصیلی کشور</span>
+                    <span>استخدام سازمان نظام پرستاری (کلیه اخبار)</span>
+                    <span>استخدام شرکت های فولاد</span>
+                    <span>جدول حقوق و دستمزد ۱۴۰۲</span>
+                </div>
+                <div class="new">
+                    <span>اخبار استخدام معلولین (کلیه اخبار)</span>
+                    <span>شروع استخدام های جدید</span>
+                    <span>اخبار لحظه به لحظه استخدام وزارت بهداشت</span>
+                </div>
+            </div>
+            <div class="other">
+                <a href="/">ادامه لیست </a>
+            </div>
+            <div class="Information">
+                <div class="Card">
+                    <div><img src="assets/images/information/provinces.png" alt="provinces"></div>
+                    <div><span>نیازمندی استان ها</span></div>
+                    <div><a href="/">آگهی‌های استانی بصورت آرشیو شده در این صفحه گردآوری شده‌اند</a></div>
+                </div>
+                <div class="Card">
+                    <div><img src="assets/images/information/education.png" alt="education"></div>
+                    <div><span>اطلاعات مشاغل و حرفه‌ها</span></div>
+                    <div><a href="/">با مشاغل مورد علاقه و مرتبط با رشته تحصیلی خود آشنا شوید</a></div>
+                </div>
+                <div class="Card">
+                    <div><img src="assets/images/information/job.png" alt="job"></div>
+                    <div><span>اطلاعات رشته‌های تحصیلی</span></div>
+                    <div><a href="/">با رشته‌های تحصیلی و بازار شغلی مرتبط با آن‌ها آشنا شوید</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="topFooter">
+                <div class="logo">
+                    <a href="/"><img src="assets/images/logo2.svg" alt="Iestekhdam"></a>
+                </div>
+                <div class="footerIcons">
+                    <a href="/"><img src="assets/images/icons/wifi.svg" alt="wifi"></a>
+                    <a href="/"><img src="assets/images/icons/wifi.svg" alt="wifi"></a>
+                    <a href="/"><img src="assets/images/icons/wifi.svg" alt="wifi"></a>
+                    <a href="/"><img src="assets/images/icons/wifi.svg" alt="wifi"></a>
+                </div>
+            </div>
+            <div class="footerContents">
+                <div class="footerColumn1">
+                    <div><a href="/">خانه</a></div>
+                    <div><a href="/">ثبت نام</a></div>
+                    <div><a href="/">ورود کاربران</a></div>
+                    <div><a href="/">ورود کارفرمایان</a></div>
+                    <div><a href="/">درج آگهی استخدام</a></div>
+                </div>
+                <div class="footerColumn2">
+                    <div><a href="/">دانلود اپلیکیشن موبایل</a></div>
+                    <div><a href="/">رزومه ساز</a></div>
+                    <div><a href="/">راهنمای پرداخت آنلاین</a></div>
+                    <div><a href="/">دانلود سوالات استخدامی</a></div>
+                    <div><a href="/">تماس با ما</a></div>
+                </div>
+                <div class="footerColumn3">
+                    <div><a href="/">اخبار استخدامی</a></div>
+                    <div><a href="/">استخدام های سراسری</a></div>
+                    <div><a href="/">استخدام بانک ها</a></div>
+                    <div><a href="/">استخدام نیرو مسلح</a></div>
+                    <div><a href="/">درباره ما</a></div>
+                </div>
+                <div class="footerColumn4">
+                    <div><a href="/"><img src="assets/images/validation/samandehi.png" alt="valid" width="60"
+                                height="60"></a></div>
+                    <div><a href="/"><img src="assets/images/validation/enamad.jpg" alt="valid" width="60"
+                                height="60"></a></div>
+                </div>
+                <div class="footerColumn5">
+                    <div>
+                        <h5>ارتباط با ما</h5>
+                    </div>
+                    <div class="Allsupport">
+                        <div id="supportSeekers">
+                            <div>پشتیبانی کارجویان</div>
+                            <div>
+                                <span>021-44291015</span>
+                                <br>
+                                <span>021-44291874</span>
+                            </div>
+                        </div>
+                        <div id="supportEmployer">
+                            <div>پشتیبانی کارفرمایان</div>
+                            <div><span>021-44291844</span></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src='assets/js/cdnjs.cloudflare.com_ajax_libs_jquery_2.1.3_jquery.min.js'></script>
+</body>
+
+</html>

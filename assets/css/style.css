@@ -1,0 +1,957 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url("../fonts/sans/Sans.eot") format('eot'),
+        url("../fonts/sans/Sans.svg") format('svg'),
+        url("../fonts/sans/Sans.ttf") format('ttf'),
+        url("../fonts/sans/Sans.woff") format('woff');
+}
+
+
+* {
+    font-family: 'IranSans';
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+    direction: rtl;
+    background-color: #603695;
+}
+
+.headElements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.headBtn {
+    display: flex;
+}
+
+.searchHead {
+    width: 60%;
+}
+
+.searchHead input {
+    width: 75%;
+    background-image: url(../images/icons/icons8-search-30.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 3.5%;
+    text-indent: 25px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #532e82;
+    color: #cebbe6;
+    border: 0;
+}
+
+.searchHead input::placeholder {
+    color: #cebbe6;
+}
+
+.searchHead input:focus {
+    outline: none;
+}
+
+.headBtn button {
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    font-size: small;
+}
+
+.headBtn button:hover {
+    opacity: 0.9;
+}
+
+#register button {
+    background-color: #804dbf;
+    color: white;
+}
+
+.mobileBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mobileBtn button {
+    width: 45%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 7px;
+    background-color: #804dbf;
+    color: white;
+    cursor: pointer;
+}
+
+.menubar {
+    margin-top: 2.5%;
+}
+
+.ulMenubars {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    right: -35px;
+}
+
+.liMenubars {
+    margin-right: 30px;
+    font-size: small;
+    display: inline;
+    margin-top: 5px;
+}
+
+.liMenubars a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.liMenubars a:hover {
+    background-color: white;
+    color: #6800f0;
+    border-radius: 10px;
+}
+
+.bestTool {
+    color: white;
+    margin: 5% 0;
+    margin-bottom: 1%;
+    font-size: larger;
+}
+
+.jobSearch button {
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    background-color: #804dbf;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.jobSearch button:hover {
+    opacity: 0.9;
+}
+
+.jobSearch>button:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+
+.quick {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: max-content;
+    position: relative;
+    top: 3em;
+    box-shadow: 1px 2px 6px black;
+    z-index: 1;
+}
+
+.access h5 {
+    position: relative;
+    background-image: url(../images/icons/Thunder.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    text-indent: 15.5px;
+    color: #804dbf;
+    right: 5px;
+    top: 5px;
+}
+
+.employer {
+    float: left;
+    width: 34%;
+}
+
+.btnEmployer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: -6% 2%;
+    background-color: #eaeff1;
+    height: 7vh;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.btnEmployer button,
+.employer2 button {
+    background-image: url(../images/icons/icons8-plus-96.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 5px center;
+    margin-top: 1.5%;
+    height: 5vh;
+    background-color: #2b3c42;
+    color: white;
+    border-radius: 12px;
+    border: 0;
+    text-indent: 20px;
+    cursor: pointer;
+}
+
+.btnEmployer button:hover {
+    color: #fff !important;
+    background-color: #212e33;
+    border-color: #212e33;
+}
+
+.btnEmployer span {
+    margin-top: 2.9%;
+}
+
+.quickBtn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quickBtn button {
+    margin: 10px 5px 10px 10px;
+    background-color: #eaeff1;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quickBtn button:hover {
+    background-color: rgba(250, 209, 216, 0.945);
+}
+
+.underHead {
+    background-color: #eadff7;
+    z-index: 0;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 6% 0% 3% 0%;
+
+}
+
+.companies img {
+    width: 75%;
+    border-radius: 20px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.companies img:hover {
+    border: 0.1px solid #804dbf;
+}
+
+.BodyContent {
+    background-color: #ffffff;
+    height: max-content;
+}
+
+.h3andIcon {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.h3andIcon a,
+.Information a {
+    text-decoration: none;
+}
+
+.h3andIcon h3:hover {
+    color: #603695;
+}
+
+.h3andIcon img {
+    position: relative;
+    background-color: #eaeff1;
+    top: 15px;
+    border-radius: 120px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.employer2 {
+    padding: 1% 6%;
+    margin: 0% 8%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eaeff1;
+    position: relative;
+    top: 0.5em;
+    border-radius: 10px;
+}
+
+.employer2 button {
+    position: relative;
+    bottom: 10%;
+    height: 32px;
+}
+
+.employer2 div {
+    margin-top: 6px;
+}
+
+.GovernmentOrganizations {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.GovernmentOrganizations div:hover {
+    color: #6018b9;
+    cursor: pointer;
+}
+
+.GovernmentOrganizations img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #804dbf;
+}
+
+.GovernmentOrganizations span {
+    display: block;
+    font-size: smaller;
+}
+
+.diary {
+    width: 100%;
+    background-color: #eadff7;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 3%;
+    color: #273235;
+}
+
+.diary span {
+    position: relative;
+    top: 5px;
+}
+
+.HiringToday,
+.GovernmentEmployment {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HiringTodayAndGovernmentEmployment,
+.HeadHiringToday,
+.HeadGovernmentEmployment {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.HiringTodayAndGovernmentEmployment a {
+    text-decoration: none;
+}
+
+
+.HeadGovernmentEmployment div:nth-child(2) a:hover,
+.HeadHiringToday div:nth-child(2) a:hover {
+    color: #603695;
+}
+
+
+.HeadGovernmentEmployment div:nth-child(1) img,
+.HeadHiringToday div:nth-child(1) img {
+    background-color: #eaeff1;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+
+.HeadGovernmentEmployment div:nth-child(1) img:hover,
+.HeadHiringToday div:nth-child(1) img:hover {
+    background-color: #8f79aa;
+}
+
+.HeadHiringToday div:nth-child(3) img,
+.HeadGovernmentEmployment div:nth-child(3) img,
+.GNRLinkAndIcon div:nth-child(2) img {
+    position: relative;
+    background-color: #eaeff1;
+    top: 5px;
+    border-radius: 120px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.AllBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyHiringToday,
+.bodyGovernmentEmployment {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    right: 13%;
+    margin-top: 1%;
+    padding: 1% 0%;
+}
+
+.bodyHiringToday div:nth-child(odd),
+.bodyGovernmentEmployment div:nth-child(odd) {
+    transition: 0.5s;
+    width: 70%;
+    border-right: 2px solid #804dbf;
+    border-radius: 0.5px;
+    text-align: right;
+    text-indent: 5px;
+    font-size: 10.9px;
+}
+
+.bodyHiringToday div:nth-child(odd):hover,
+.bodyGovernmentEmployment div:nth-child(odd):hover {
+    color: #8f79aa;
+    cursor: pointer;
+}
+
+.bodyHiringToday div:nth-child(even),
+.bodyGovernmentEmployment div:nth-child(even) {
+    border-left: 2px solid #009688;
+    text-indent: 5px;
+    direction: ltr;
+    color: #009688;
+    border-radius: 0.5px;
+    font-size: 9px;
+}
+
+.bodyHiringToday div:nth-child(even):hover,
+.bodyGovernmentEmployment div:nth-child(even):hover {
+    cursor: pointer;
+}
+
+.AllBodyBtn {
+    width: 70%;
+}
+
+.AllBodyBtn button {
+    width: 100%;
+    border-radius: 120px;
+    background-color: #eaeff1;
+    color: #577884;
+    border: none;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.AllBodyBtn button:hover {
+    color: #9b72ce;
+    background-color: #d9c0f8;
+}
+
+#Gray {
+    color: gray;
+    border-left: 2px solid gray;
+}
+
+
+#lastSpan {
+    width: 70.55%;
+}
+
+.bestCompanies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bestCompanies h5 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+.AllCardBestCompanies,
+.AllCities,
+.OccupationalGroup,
+.GovernmentNationwideRecruitment,
+.AllCardEmployment {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.AllCardBestCompanies .Card,
+.AllCardEmployment .Card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 6px black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.AllCardBestCompanies .Card:hover,
+.AllCardEmployment .Card:hover {
+    box-shadow: 4px 8px 10px black;
+}
+
+.AllCardBestCompanies img,
+.AllCities img,
+.OccupationalGroup img,
+.GovernmentNationwideRecruitment img,
+.AllCardEmployment img,
+.imgNews img,
+.Information img {
+    height: 200px;
+    width: 150px;
+}
+
+.Card {
+    display: flex;
+    width: 30%;
+    padding-bottom: 2%;
+}
+
+.Card:hover span,
+.Card:hover img,
+.Card:hover p,
+.AllCities .cities:hover,
+.OccupationalGroup .jobs:hover,
+.new span:hover {
+    color: #6018b9;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 13px;
+    margin-top: 5%;
+}
+
+.AllCities .cities,
+.OccupationalGroup .jobs {
+    box-shadow: 1px 2px 6px black;
+    border-radius: 12px;
+    padding: 2% 3.5%;
+    margin-top: 3%;
+}
+
+.othercities,
+.otherJobs,
+.other {
+    width: 100%;
+    background-color: #eaeff1;
+    border-radius: 10px;
+    margin-top: 3%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.othercities a,
+.otherJobs a,
+.other a {
+    text-decoration: none;
+    color: #7c979f;
+}
+
+.othercities:hover,
+.otherJobs:hover,
+.other:hover {
+    color: #9356df;
+    background-color: #d9c0f8;
+}
+
+.GNRLinkAndIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.GNRLinkAndIcon a,
+.imgNews a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.GovernmentNationwideRecruitment {
+    width: 89%;
+}
+
+.GNRLinkAndIcon div:nth-child(2) img {
+    position: relative;
+    right: 800%;
+}
+
+.GovernmentNationwideRecruitment .AllBody .bodyGovernmentEmployment {
+    width: 100%;
+}
+
+.GovernmentNationwideRecruitment .AllBody {
+    position: relative;
+    right: 10%;
+}
+
+.GovernmentNationwideRecruitment>div {
+    width: 50%;
+}
+
+.AllCardEmployment {
+    margin-top: 2%;
+}
+
+.imgNews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.news .new {
+    width: 40%;
+    margin: 0% 5%;
+}
+
+.news .new span {
+    display: block;
+    margin-bottom: 10%;
+    border-left: 2px solid gray;
+    border-right: 2px solid #804dbf;
+    text-indent: 5px;
+    font-size: small;
+    transition: 0.5s;
+}
+
+.other {
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.Information {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Information>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+}
+
+.Information .Card {
+    width: 25%;
+}
+
+.Information .Card:hover {
+    color: #6018b9;
+}
+
+.Information .Card span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Information .Card a {
+    font-size: smaller;
+}
+
+.footer {
+    background-color: #344950;
+    padding: 3% 0%;
+}
+
+.topFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.footerIcons img {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.footerIcons img:hover {
+    background-color: #6018b9;
+}
+
+.footerContents,
+.footerColumn4 {
+    display: flex;
+    justify-content: space-around;
+    color: #b3c0c5;
+    flex-wrap: wrap;
+}
+
+.footerColumn4 div {
+    position: relative;
+    top: 30%;
+}
+
+.footerContents a {
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.footerContents a:hover {
+    color: white;
+}
+
+.footerColumn5 h5 {
+    font-size: large
+}
+
+#supportSeekers,
+#supportEmployer {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#supportSeekers {
+    border-bottom: 1px solid #3f4243;
+}
+
+.footerColumn5 div {
+    position: relative;
+    bottom: 20%;
+}
+
+.Allsupport {
+    width: 400px;
+    background-color: #2b3c42;
+    border-radius: 10px;
+}
+
+/*medias*/
+@media(min-width:768px) and (max-width:991px) {
+    .container {
+        width: 90%;
+    }
+
+    .searchHead,
+    #advertising,
+    .phover,
+    .menubar,
+    .jobSearch,
+    .btnEmployer,
+    .news div:nth-last-child(1) {
+        display: none;
+    }
+
+    .bestTool {
+        text-align: right;
+        margin-right: 5%;
+        font-size: large;
+    }
+
+    .companies {
+        margin-top: 5%;
+    }
+
+    .quick {
+        top: 5em;
+    }
+
+    .HiringTodayAndGovernmentEmployment {
+        flex-wrap: wrap;
+    }
+
+    .GovernmentOrganizations div:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .AllCardBestCompanies,
+    .AllCities,
+    .OccupationalGroup,
+    .GovernmentNationwideRecruitment,
+    .AllCardEmployment,
+    .news,
+    .Information {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AllCardBestCompanies .Card,
+    .AllCardEmployment .Card,
+    .Information .Card {
+        width: 75%;
+        margin-top: 10%;
+    }
+
+    .AllCities .cities,
+    .OccupationalGroup .jobs {
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .GovernmentNationwideRecruitment .AllBody div {
+        width: 100%;
+        right: 3%;
+    }
+
+    .other {
+        width: 70%;
+        position: relative;
+        right: 15%;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .searchHead,
+    #advertising,
+    .phover,
+    .menubar,
+    .jobSearch,
+    .btnEmployer,
+    .news div:nth-last-child(1) {
+        display: none;
+    }
+
+    .bestTool {
+        text-align: right;
+        margin-right: 5%;
+        font-size: large;
+    }
+
+    .logo {
+        margin-right: 4%;
+    }
+
+    .quickBtn button {
+        width: 96%;
+    }
+
+    .quickBtn>div {
+        width: 50%;
+    }
+
+    .companies {
+        margin-top: 5%;
+    }
+
+    .HiringTodayAndGovernmentEmployment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .HiringTodayAndGovernmentEmployment .HiringTodayAndGovernmentEmployment div {
+        width: 100%;
+    }
+
+
+    .HeadGovernmentEmployment {
+        margin-top: 20%;
+    }
+
+    .companies div:nth-last-child(-n+2),
+    .GovernmentOrganizations div:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .AllCardBestCompanies,
+    .AllCities,
+    .OccupationalGroup,
+    .GovernmentNationwideRecruitment,
+    .AllCardEmployment,
+    .news,
+    .Information {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AllCardEmployment div,
+    .AllCardBestCompanies div {
+        margin: 1% auto;
+        width: 80%;
+    }
+
+    .AllCities .cities,
+    .OccupationalGroup .jobs {
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .GovernmentNationwideRecruitment .AllBody div {
+        width: 100%;
+        right: 3%;
+    }
+
+    .other {
+        width: 70%;
+        position: relative;
+        right: 15%;
+    }
+
+}
+
+@media(min-width:992px) {
+    .mobilmenu {
+        display: none;
+    }
+
+    .btnEmployer {
+        margin-top: -5%;
+    }
+
+    .employer2 {
+        display: none;
+    }
+}
